@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>header_link}}
+</head>
+<body>
+    {{>navba}}
+    
+    <div class="container-fluid ">
+        <div class="rows">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main_container">
+                    <form  action="" id="temp_form" >
+                        <input type="text" id="cityName" placeholder="Enter city">
+                        <input type="submit" value="search" id="submitBtn" >
+                    </form>
+                </div>
+                <div class="tempInformation">
+                    <div class="top_layer">
+                        <p id="day">Friday</p>
+                        <p id="today_date">18 Feb</p>
+                    </div>
+                    <div class="main_layer">
+                        <p id="city_name">Output is  here...</p>
+                        <div class="middle_layer data_hide ">
+                            <p id="temp"><span id="tempo"></span><sup>o</sup>C</p>
+                            <p id="temp_status"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <p>created with love by niraj</p>
+    </footer>
+    <script src="/js/main.js"></script>     
+</body>
+</html>
